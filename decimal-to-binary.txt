@@ -1,0 +1,17 @@
+Start
+
+Input decimalNumber
+
+Initialize binary = "" and num = decimalNumber
+
+Is num > 0?
+
+If No → 
+  Output binary
+  End
+
+If Yes →
+  Calculate remainder = num MOD 2
+  binary = remainder + binary
+  num = num DIV 2
+  Go back to "Is num > 0?"
